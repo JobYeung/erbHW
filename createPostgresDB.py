@@ -4,7 +4,7 @@
 # Student Name: Antoninus Yeung CH
 #
 # Program: Applicaiton for database creation on PostgreSQL DB
-# manaul edit DB_NAME, PG_USER, PG_PASSWORD at the bottom __main()__:
+# manual edit DB_NAME, PG_USER, PG_PASSWORD at the bottom __main()__:
 # 
 # >>>python createPostgreDB.py 
 

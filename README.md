@@ -1,11 +1,11 @@
 # db-tool and createPostgresDB 
 
 1. db-tool.py
-2. createPostgreDB.py
+2. createPostgresDB.py
 
 Command Line Applicaiton "db-tool.py", which can import, export and delete the data in PostgreSQL Database. 
 
-Command Line Applicaiton "createPostgreDB.py", which can crate the database in PostgreSQL.
+Command Line Applicaiton "createPostgresDB.py", which can crate the database in PostgreSQL.
 
 
 ## Installation 
@@ -46,13 +46,13 @@ delete  exit  export  help  import
 
 ___
 
-***createPostgreDB***.py for database creation in PostgreSQL
+***createPostgresDB***.py for database creation in PostgreSQL
 
 ```bash
-python createPostgreDB.py 
+python createPostgresDB.py 
 ```
 
-edit the **createPostgreDB**.py params to perform the program, change the DB_NAME, PG_USER, and PG_PASSWORD as yours.
+edit the **createPostgresDB**.py params to perform the program, change the DB_NAME, PG_USER, and PG_PASSWORD as yours.
 ```python
 if __name__ == "__main__":
     # Replace with your PostgreSQL credentials and desired database name
