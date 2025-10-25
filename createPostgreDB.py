@@ -45,8 +45,8 @@ def create_postgresql_database(db_name, user, password, host='localhost', port=5
 
 if __name__ == "__main__":
     # Replace with your PostgreSQL credentials and desired database name
-    DB_NAME = "blossom"
+    DB_NAME = "DBNAME"
     PG_USER = "postgres"  # Default PostgreSQL user
-    PG_PASSWORD = "aty" # Replace with your actual password
+    PG_PASSWORD = "***" # Replace with your actual password
 
     create_postgresql_database(DB_NAME, PG_USER, PG_PASSWORD)
