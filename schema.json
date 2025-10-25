@@ -1,0 +1,23 @@
+{
+    "tables": [
+        {
+            "table_name": "users",
+            "columns": [
+                {"name": "id", "type": "serial", "primary_key": true},
+                {"name": "name", "type": "varchar", "nullable": false},
+                {"name": "email", "type": "varchar", "nullable": false},
+                {"name": "age", "type": "int", "nullable": true},
+                {"name": "is_active", "type": "boolean", "default": true}
+            ]
+        },
+        {
+            "table_name": "posts",
+            "columns": [
+                {"name": "id", "type": "serial", "primary_key": true},
+                {"name": "title", "type": "varchar", "nullable": false},
+                {"name": "content", "type": "text", "nullable": false},
+                {"name": "user_id", "type": "int", "nullable": false, "foreign_key": "users(id)"}
+            ]
+        }
+    ]
+}
