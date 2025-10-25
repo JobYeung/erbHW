@@ -1,3 +1,13 @@
+# 2025/10/25 erb07
+# (CT290DS007) 
+# Certificate in Python Web Framework Devleopment Assistant
+# Student Name: Antoninus Yeung CH
+#
+# Program: Applicaiton for database creation on PostgreSQL DB
+# manaul edit DB_NAME, PG_USER, PG_PASSWORD at the bottom __main()__:
+# 
+# >>>python createPostgreDB.py 
+
 import psycopg2
 from psycopg2 import sql
 

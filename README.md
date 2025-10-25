@@ -46,7 +46,7 @@ delete  exit  export  help  import
 
 ___
 
-**createPostgreDB**.py for database creation in PostgreSQL
+***createPostgreDB***.py for database creation in PostgreSQL
 
 ```bash
 python createPostgreDB.py 
@@ -64,18 +64,18 @@ if __name__ == "__main__":
 ```
 ## Pending 
 
-**createMultiDB**.py is pending develop.
+***createMultiDB***.py is pending develop.
 
 ## Supplements
 
 ### florist1.csv, product1.csv, taggit_tag1.csv, taggit_taggeditems1.csv
-The above 4 files are the testing data. Feel free to use.
+The above ***4 files*** are testing data. Feel free to use.
 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Pleas emake sure to update tests as appropriate.
+Please make sure to update tests as appropriate.
 
 ## License
 
