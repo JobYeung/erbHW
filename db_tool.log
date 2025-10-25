@@ -1,0 +1,3 @@
+ERROR:root:Error deleting rows: update or delete on table "florists_florist" violates foreign key constraint "products_product_florist_id_83f39458_fk_florists_florist_id" on table "products_product"
+DETAIL:  Key (id)=(1) is still referenced from table "products_product".
+
