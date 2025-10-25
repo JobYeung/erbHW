@@ -1,7 +1,0 @@
-ERROR:root:Error deleting rows: update or delete on table "florists_florist" violates foreign key constraint "products_product_florist_id_83f39458_fk_florists_florist_id" on table "products_product"
-DETAIL:  Key (id)=(1) is still referenced from table "products_product".
-
-ERROR:root:Error connecting to database: connection to server at "localhost" (127.0.0.1), port 5432 failed: fe_sendauth: no password supplied
-
-ERROR:root:Error connecting to database: connection to server at "localhost" (127.0.0.1), port 5432 failed: fe_sendauth: no password supplied
-
